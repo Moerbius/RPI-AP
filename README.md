@@ -34,7 +34,7 @@ The script will ask for:
 ## One-line install
 
 ```bash
-git clone https://github.com/Moerbius/RPI-AP.git && cd RPI-AP && chmod +x setup.sh && sudo ./setup.sh && sudo reboot
+curl -fsSL https://raw.githubusercontent.com/moerbius/RPI-AP/main/setup.sh | bash
 ```
 
 ## What it does
